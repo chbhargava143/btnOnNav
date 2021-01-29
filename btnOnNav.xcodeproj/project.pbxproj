@@ -116,12 +116,9 @@
 				4C540C4F25C3F65F0018BAFD /* AppDelegate.swift */,
 				4C540C5125C3F65F0018BAFD /* SceneDelegate.swift */,
 				4C540C8625C3F7FF0018BAFD /* HomeBtn.swift */,
-				4C540C5325C3F65F0018BAFD /* ViewController.swift */,
-				4C540C8C25C3FD020018BAFD /* viewBtn.swift */,
-				4C540C8225C3F7740018BAFD /* dVC.swift */,
-				4C540C8825C3FCD10018BAFD /* Dvcbtn.swift */,
-				4C540C8425C3F7830018BAFD /* avc.swift */,
-				4C540C8A25C3FCE20018BAFD /* avcbtn.swift */,
+				4C6DADDA25C46D39001DAC3D /* viewController */,
+				4C6DADDB25C46D4D001DAC3D /* secondVc */,
+				4C6DADDF25C46D5D001DAC3D /* thirdVc */,
 				4C540C5525C3F65F0018BAFD /* Main.storyboard */,
 				4C540C5B25C3F6660018BAFD /* Assets.xcassets */,
 				4C540C5D25C3F6660018BAFD /* LaunchScreen.storyboard */,
@@ -147,6 +144,33 @@
 				4C540C7625C3F6690018BAFD /* Info.plist */,
 			);
 			path = btnOnNavUITests;
+			sourceTree = "<group>";
+		};
+		4C6DADDA25C46D39001DAC3D /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				4C540C5325C3F65F0018BAFD /* ViewController.swift */,
+				4C540C8C25C3FD020018BAFD /* viewBtn.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		4C6DADDB25C46D4D001DAC3D /* secondVc */ = {
+			isa = PBXGroup;
+			children = (
+				4C540C8225C3F7740018BAFD /* dVC.swift */,
+				4C540C8825C3FCD10018BAFD /* Dvcbtn.swift */,
+			);
+			path = secondVc;
+			sourceTree = "<group>";
+		};
+		4C6DADDF25C46D5D001DAC3D /* thirdVc */ = {
+			isa = PBXGroup;
+			children = (
+				4C540C8425C3F7830018BAFD /* avc.swift */,
+				4C540C8A25C3FCE20018BAFD /* avcbtn.swift */,
+			);
+			path = thirdVc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
