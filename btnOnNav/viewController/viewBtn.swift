@@ -33,5 +33,13 @@ class viewBtn: UIViewController {
          let homeVc = UINavigationController(rootViewController: vc)
  self.navigationController?.pushViewController(vc, animated: true)      // UIApplication.shared.windows.first?.rootViewController = vc
       // UIApplication.shared.windows.first?.makeKeyAndVisible()
+        
+    }
+    func root(){
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        let navigationController = UINavigationController(rootViewController: newViewController)
+        let appdelegate = UIApplication.shared.delegate as! AppDelegate
+        appdelegate.window?.rootViewController = navigationController
     }
 }
